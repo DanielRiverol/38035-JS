@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none
+}
+
+body{
+    background-color: cornflowerblue;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;justify-content: center;
+}
+.container{
+    width: 700px;
+    height: 650px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.container .search-container{
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+/*     background-color: burlywood; */
+    display: flex;
+    
+    align-items: center;
+}
+hr{
+    height: 2px;
+    color: #777;
+}
+.search-container button{
+    border: none;
+    background: transparent;
+    margin-right: 5px;
+}
+.search-container button i{
+    font-size: 1.3rem;
+    color: #777;
+    font-weight: 600;
+}
+.search-container input{
+    height: 1.5rem;
+    font-size: 1.1rem;
+    padding: 2px 4px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+img{
+    max-width: 150px;
+    height: 150px !important;
+    object-fit: cover;
+}
+.card{
+    width: 180px;
+    max-height: 300px;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: flex;flex-direction: column;
+    align-items: center;
+}
+.card-action{
+    max-width: 100%;
+}
+.card-container{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: scroll;
+
+}
